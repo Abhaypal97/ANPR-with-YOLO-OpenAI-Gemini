@@ -9,5 +9,4 @@ src/__pycache__/
 config.yaml
 
 # Data files
-*.mp4
 *.csv
