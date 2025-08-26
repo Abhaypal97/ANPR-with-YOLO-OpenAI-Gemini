@@ -1,0 +1,14 @@
+gemini:
+  api_key: "YOUR_GEMINI_API_KEY"
+openai:
+  api_key: "YOUR_OPENAI_API_KEY"
+pipeline:
+  output_path: data/results.csv
+  save_format: csv
+  save_results: true
+runtime:
+  device: cpu
+yolo:
+  confidence_threshold: 0.25
+  tracker: bytetrack.yaml
+  weights: models/anpr-demo-model.pt
